@@ -37,3 +37,6 @@
   - git init
 - 파일 추가
   - git add .
+- 수정 내용 커밋 하기
+- git commit -m "커밋내용" <!-- 커밋내용에 내가 적을 것 작성 -->
+- gitHub repository에 최초 업로드
