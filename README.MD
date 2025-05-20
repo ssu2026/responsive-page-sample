@@ -36,15 +36,22 @@
 
 - repository 이름은 폴더명과 똑같이 설정하는 것을 추천
 - git 초기화 하기(폴더별로 최초 한번 설정)
+
   - git init
+
 - 파일 추가
+
   - git add .
+
 - 수정 내용 커밋 하기
   - git commit -m "커밋내용" <!-- 커밋내용에 내가 적을 것 작성 -->
 - gitHub repository에 최초 업로드
+
 - 수정 내용 커밋 하기
+
   - git commit -m "반응형 웹페이지 실습 프로젝트 최초 생성"
   - git status
+
 - gitHub repository 업데이트
   - git add .
   - git commit -m "커밋 내용"
@@ -59,3 +66,4 @@
 
 - git fetch
 - git merge origin/main
+<!-- fetch 입력 후 git merge origin/main 작성해서 업데이트 해주기  -->
