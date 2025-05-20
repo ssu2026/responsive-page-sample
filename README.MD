@@ -44,13 +44,12 @@
   - git add .
 
 - 수정 내용 커밋 하기
+
   - git commit -m "커밋내용" <!-- 커밋내용에 내가 적을 것 작성 -->
-- gitHub repository에 최초 업로드
-
-- 수정 내용 커밋 하기
-
-  - git commit -m "반응형 웹페이지 실습 프로젝트 최초 생성"
+    <!-- 커밋내용 예시 :  git commit -m "반응형 웹페이지 실습 프로젝트 최초 생성" -->
   - git status
+
+- gitHub repository에 최초 업로드
 
 - gitHub repository 업데이트
   - git add .
