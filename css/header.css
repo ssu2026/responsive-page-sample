@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(to top, #cccfff, #ffccee);
+  padding: 20rem 0 5rem 0;
+}
+
+.header h1 {
+  position: relative;
+  font-size: 3rem;
+  justify-content: center;
+  color: #333;
+}
+
+.header h1::before {
+  content: "WEBDESIGN";
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  font-size: 1.5rem;
+  text-align: left;
+  letter-spacing: 3px;
+  opacity: 0.5;
+}
+
+.header h1::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #333;
+  margin: 4px 0 4px;
+}
+
+.header ul {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header ul li a {
+  font-size: 2rem;
+  color: #555;
+  opacity: 0.5;
+}
+
+.header ul li a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 1px;
+  background-color: #333;
+  transition: all 0.5s;
+}
+
+.header ul li:hover a {
+  opacity: 1;
+}
+
+.header ul li:hover a::after {
+  width: 100%;
+}
