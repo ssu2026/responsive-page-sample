@@ -51,7 +51,7 @@
 
 - gitHub repository에 최초 업로드
 
-- gitHub repository 업데이트
+- gitHub repository 업데이트 (수정한 후에 저장)
   - git add .
   - git commit -m "커밋 내용"
   - git push origin main
@@ -61,7 +61,7 @@
 - 레포지토리와 같은 이름의 폴더 생성
 - git clone "본인 레포토리 주소" ./
 
-### 최종 코드로 업데이트 하기
+### 최종 코드로 업데이트 하기 (작성하기 전에 먼저하기)
 
 - git fetch
 - git merge origin/main
