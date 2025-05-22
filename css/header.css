@@ -34,13 +34,24 @@
   opacity: 0.5;
 }
 
+.header h1:hover {
+  color: #fff;
+}
+
 .header h1::after {
   content: "";
   display: block;
-  width: 100%;
+  width: 0%;
   height: 2px;
   background-color: #333;
-  margin: 4px 0 4px;
+  margin: 2px 0 4px;
+}
+
+.header h1:hover::after {
+  width: 100%;
+  color: #fff;
+  background-color: #fff;
+  transition: all 0.5s;
 }
 
 .header ul {
@@ -57,12 +68,16 @@
   opacity: 0.5;
 }
 
+.header ul li a:hover {
+  color: #fff;
+}
+
 .header ul li a::after {
   content: "";
   display: block;
   width: 0;
   height: 1px;
-  background-color: #333;
+  background-color: #fff;
   transition: all 0.5s;
 }
 
