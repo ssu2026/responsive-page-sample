@@ -1,7 +1,132 @@
 @charset "utf-8";
 
 .main {
-  width: 400px;
   position: relative;
+  margin-left: 400px;
   padding: 20px;
+}
+
+.sorting {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 3rem;
+}
+
+.sorting li {
+}
+
+.sorting li a {
+  display: flex;
+  line-height: 1;
+  width: 8rem;
+  height: 2.5rem;
+  font-size: 1.2rem;
+  justify-content: center;
+  align-items: center;
+  color: #aaa;
+  box-shadow: 0 0 10px rgba(114, 114, 114, 0.3);
+  border-radius: 0.5rem;
+  background-color: #fff;
+}
+
+.sorting li:hover a {
+  color: #fff;
+  background: linear-gradient(to top, #cccfff, #ffcccc);
+}
+
+.sorting li.on a {
+  background: linear-gradient(to top, #cccfffbd, #ffcccca8);
+}
+
+.section {
+  position: relative;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.section .odd {
+  position: relative;
+  width: 20%;
+  /* padding: 1.2rem; */
+}
+
+.section .odd div {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(114, 114, 114, 0.3);
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.section .odd div img {
+  width: 100%;
+  filter: grayscale(1);
+}
+
+.section .odd:hover div img {
+  filter: grayscale(0);
+}
+
+.section .odd div h2 {
+  padding: 5px 0 5px 3px;
+  font-size: 1.5rem;
+}
+
+.section .odd div p {
+  font-size: 0.93rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  line-clamp: 2;
+  -webkit-line-clamp: 2;
+  /* -webkit-box-orient: vertical; */
+}
+
+.section .even {
+  position: relative;
+  width: 20%;
+  /* padding: 1.2rem; */
+}
+
+.section .even div {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(114, 114, 114, 0.3);
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.section .even div img {
+  width: 100%;
+  filter: grayscale(1);
+}
+
+.section .even:hover div img {
+  filter: grayscale(0);
+}
+
+.section .even div h2 {
+  padding: 5px 0 5px 3px;
+  font-size: 1.5rem;
+}
+
+.section .even div p {
+  font-size: 0.93rem;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  line-clamp: 2;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
 }
