@@ -2,27 +2,28 @@
 
 .main {
   position: relative;
-  margin-left: 400px;
+  margin-left: 300px;
   padding: 20px;
 }
 
-.sorting {
+.main > ul {
   position: relative;
   width: 100%;
+  margin-bottom: 10px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   gap: 1.5rem;
 }
 
-.sorting li {
+.main > ul > li {
 }
 
-.sorting li a {
+.main > ul > li > a {
   display: flex;
   line-height: 1;
   width: 8rem;
-  height: 2.5rem;
+  height: 2.7rem;
   font-size: 1rem;
   justify-content: center;
   align-items: center;
@@ -34,7 +35,7 @@
 
 .sorting li:hover a {
   color: #fff;
-  background: linear-gradient(to top, #cccfff, #ffcccc);
+  background: linear-gradient(80deg, #cccfff, #ffcccc);
 }
 
 .sorting li.on a {
@@ -43,84 +44,41 @@
 
 .section {
   position: relative;
-  display: flex;
   width: 100%;
+  display: flex;
   flex-wrap: wrap;
 }
 
-.section .odd {
+.section article {
   position: relative;
   width: 20%;
-  padding: 1.2rem; /* 페딩값? */
+  padding: 1.2rem;
 }
 
-.section .odd div {
+.section article div {
   position: relative;
   width: 100%;
   height: 100%;
   border-radius: 0.5rem;
   box-shadow: 0 0 10px rgba(114, 114, 114, 0.3);
-  justify-content: center;
-  align-items: center;
   padding: 10px;
 }
 
-.section .odd div img {
+.section article div img {
   width: 100%;
   filter: grayscale(1);
 }
 
-.section .odd:hover div img {
+.section article:hover div img {
   filter: grayscale(0);
 }
 
-.section .odd div h2 {
+.section article div h2 {
   padding: 5px 0 5px 3px;
   font-size: 1.5rem;
 }
 
-.section .odd div p {
-  font-size: 0.93rem;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  line-clamp: 2;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-}
-
-.section .even {
-  position: relative;
-  width: 20%;
-  padding: 1.2rem; /* 페딩값? */
-}
-
-.section .even div {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  border-radius: 0.5rem;
-  box-shadow: 0 0 10px rgba(114, 114, 114, 0.3);
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-}
-
-.section .even div img {
-  width: 100%;
-  filter: grayscale(1);
-}
-
-.section .even:hover div img {
-  filter: grayscale(0);
-}
-
-.section .even div h2 {
-  padding: 5px 0 5px 3px;
-  font-size: 1.5rem;
-}
-
-.section .even div p {
+.section article div p {
   font-size: 0.93rem;
   overflow: hidden;
   text-overflow: ellipsis;
