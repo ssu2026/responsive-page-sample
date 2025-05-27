@@ -39,7 +39,7 @@
 }
 
 .sorting li.on a {
-  background: linear-gradient(to top, #cccfffbd, #ffcccca8);
+  background: linear-gradient(80deg, #cccfffbd, #ffcccca8);
 }
 
 .section {
