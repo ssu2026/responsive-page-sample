@@ -41,9 +41,6 @@
     width: 20%;
   }
 
-  .header ul li a {
-  }
-
   .main {
     width: 100%;
     margin-left: 0;
@@ -88,7 +85,3 @@
     justify-content: center;
     width: 6rem;
   }
-
-  .sorting li a {
-  }
-}
